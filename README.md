@@ -1,7 +1,7 @@
 # Welcome to thy changelogeths
-well shit.
+Well shit.
 
-here we go again.
+Here we go again.
 
 -------------
 Welcome to the changelogs of FNF:ATFS!
