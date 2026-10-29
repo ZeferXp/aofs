@@ -1,0 +1,52 @@
+@font-face {
+                font-family: 'atfscomix';
+                src: url('../assets/fonts/ttf/comicsans/base.ttf') format('ttf');
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap; 
+                }
+
+div {
+            background-image: url('../assets/images/bg2.png');
+            background-repeat: repeat-y; 
+            background-position: center; 
+            background-size: contain; 
+            text-align: center;
+            background-attachment: scroll; 
+            min-height: 100vh; 
+            border-radius: 15px;
+            margin: 0;
+            filter: drop-shadow(20px 20px 20px black);
+            font-family: 'comic sans ms';
+        }
+        body {
+            background-image: url('../assets/images/bg1.png');
+            background-repeat: repeat-y; 
+            background-position: center; 
+            text-align: center;
+            background-size: contain; 
+            background-attachment: scroll; 
+            min-height: 100vh; 
+            margin: 0;
+            font-family: 'comic sans ms';
+        }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+a:link, a:visited {
+  background:  linear-gradient( #7fd9ff, #005591);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  border: 3px solid rgb(0,0,0)
+}
+
+a:hover, a:active {
+  background: linear-gradient( #00346b, #350091);;
+}
