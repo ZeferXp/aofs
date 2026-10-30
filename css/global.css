@@ -1,7 +1,9 @@
 @font-face {
                 font-family: 'atfscomix';
-                src: url('../assets/fonts/ttf/comicsans/base.ttf') format('ttf');
-                font-weight: normal;
+                src: url('../assets/fonts/ttf/comicsans/base.ttf') format('ttf'),
+                url('../assets/fonts/woff/comicsans/base.woff') format('woff'),
+                url('../assets/fonts/woff2/comicsans/base.woff2') format('woff2');
+                font-weight: bold;
                 font-style: normal;
                 font-display: swap; 
                 }
@@ -17,7 +19,7 @@ div {
             border-radius: 15px;
             margin: 0;
             filter: drop-shadow(20px 20px 20px black);
-            font-family: 'comic sans ms', Arial, Helvetica, sans-serif;
+            font-family: 'atfscomix', Arial, Helvetica, sans-serif;
         }
         body {
             background-image: url('../assets/images/bg1.png');
@@ -28,9 +30,8 @@ div {
             background-attachment: scroll; 
             min-height: 100vh; 
             margin: 0;
-            font-family: 'comic sans ms', Arial, Helvetica, sans-serif;
+            font-family: 'atfscomix', Arial, Helvetica, sans-serif;
         }
-
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
