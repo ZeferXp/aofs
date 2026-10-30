@@ -17,7 +17,7 @@ div {
             border-radius: 15px;
             margin: 0;
             filter: drop-shadow(20px 20px 20px black);
-            font-family: 'comic sans ms';
+            font-family: 'comic sans ms', Arial, Helvetica, sans-serif;
         }
         body {
             background-image: url('../assets/images/bg1.png');
@@ -28,7 +28,7 @@ div {
             background-attachment: scroll; 
             min-height: 100vh; 
             margin: 0;
-            font-family: 'comic sans ms';
+            font-family: 'comic sans ms', Arial, Helvetica, sans-serif;
         }
 
 h1{
